@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tastycai/config-repo
+          username: tastycai
+
+server:
+  port: 7001
